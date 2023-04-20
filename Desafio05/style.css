@@ -5,27 +5,33 @@ body{
 h1{
     color: white;
     text-align: center;
-    padding: 20px;
-
-}
-
-.list{
-    text-align: center;
-    padding: 10px;
-}
-
-
-li{
     padding: 08px;
 }
 
+article h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.links{
+    max-width: 60vw;
+    margin: auto;
+    display: block;
+    columns: 3;
+    
+}
+
+
 a{
+   
     color: black;
     text-decoration: none;
     font-size: 1.5em;
     box-shadow: 1px 2px 2px black;   
     border-radius: 4px;       
     background-color: rgb(7, 183, 183);
+    padding: 0px -10px;
 }
 
 a:hover{
