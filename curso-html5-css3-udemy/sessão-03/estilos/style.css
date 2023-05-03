@@ -101,5 +101,58 @@
     background-color: darkblue;
     /*shorthand*/
     animation: animacao5 8s ease-out 4s infinite;
+}
 
+.btn{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.btn:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+.transition {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    transition: 4s;
+}
+
+.transition:hover{
+    width: 300px;
+}
+
+/*calc*/
+
+.div-calc{
+    height: 250px;
+    width: 500px;
+    position:relative;
+    margin: 20px;
+    background-color: #ddd;
+    border: 1px solid red;
+}
+
+.innerdiv-calc{
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    background-color: red;
+}
+
+.calc1{
+    width: calc(50% + 50px);
 }
