@@ -1,0 +1,66 @@
+Curso HTML5 e CSS3 
+
+Local para achar duvidas: StackOverFlow / css-tricks / w3school
+
+Aula 01 - tag videos: propriedade controls(adiciona controle ao video), dar preferencia a videos em formato de extenção mp4 por ter mais
+compatibilidade com os navegadores atuais 
+
+Aula 02 - tag audio: propriedade controls,   formato mp3 no type é mpeg
+
+Aula 03 - elemento para colocar imagens com legenda
+usar tag semantica que nao possui peso - figure (img(imagem), figcaption(legenda))
+alt = legenda da imagem
+
+Aula 04 - input email(ja vem com validação)
+propiedades dos inputs: 
+placeholder - permite escrever algo dentro do input para instruir o usuário
+required -  Torna obrigatório o preenchimento do campo
+autofocus - ao carregar a pagina do navegador, foca o cursor diretamente para o input desejado 
+
+Aula 5 - Contenteditable - propriedade que permite o usuario ou desenvolvedor alterar um paragrafo
+em tempo real.(obs: com o uso de bd pode ser deixar a alteração salva no site)
+
+HTML Semântico
+
+
+  --------<HEADER>----------------
+|                                                               |
+|---------<NAV>---------------------
+|                                                                |
+----------------------------------------
+
+----<ARTICLE>-----     -<ASIDE>-
+|                                      |   |                     |
+|                                      |   |                     |
+|       <FIGURE>         |   |                      |
+|                                      |   -------------
+|                                      |
+|                                      |  
+------------------------
+
+----<FOOTER>-------
+
+OBS: UMA IMAGEM COM FIGURE TEM VALOR SEMÂNTICO
+
+
+Aula 5 - Details e summary- permite utilizar uma palavra com um significado oculto ou amostra
+
+ex: <details>
+                <summary> Cachorro <summary>
+                <p> É um mamifero ... <p>
+      <details>
+
+obs: para o paragrafo ficar visivel ao carregar o navegador, colocar dentro do details a propriedade: open="open" 
+
+Aula 6 - Datalist (permite mostrar uma lista de opcoes ao usuario ) - normalmente utilizada dentro de um form
+no input colocar ao inves de type a propriedade "list" e no datalist colocar o id com o mesmo nome do list
+ex: 
+     <form>
+        <input    list="animais"      name"animal">
+             <datalist  id="animais">
+                   <options value"cavalo">informação que vai como subtitulo de cavalo <options>
+                    ...
+                    fechamento das tags acima
+
+Aula 7 - progress (barra de progresso) - propriedades principais - value e max
+
