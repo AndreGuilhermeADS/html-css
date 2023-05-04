@@ -156,3 +156,62 @@
 .calc1{
     width: calc(50% + 50px);
 }
+
+.calc2{
+    width: calc(50% - 50px);
+}
+
+.calc3{
+    width: calc(50% * 2);
+    margin: 0px;
+}
+
+.calc4{
+    width: calc(50% / 2);
+}
+
+
+/* gradient*/
+
+.gradient-box{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;    
+}
+
+.gradient1{
+    background-image: linear-gradient(purple,blue);
+}
+
+.gradient2{
+    background-image: linear-gradient(to right, purple, transparent);
+}
+
+.gradient3{
+    background-image: linear-gradient(to left, orange, red);
+}
+
+.gradient4{
+    background-image: linear-gradient(to bottom right, black, pink);
+}
+
+.gradient5{
+    background-image: linear-gradient(to bottom, red, yellow, gray,green );
+}
+
+.gradient6{
+    background-image: linear-gradient(to top, blue, black);
+}
+
+.gradient7{
+    background-image: radial-gradient(#3A3042, #db9d47, #ff784f);
+}
+
+.gradient8{
+    background-image: radial-gradient(black 10%, red 30%, blue);
+}
+
+.gradient9{
+    background-image: radial-gradient(circle,blue, rgba(0, 0, 0, 0.815) 60%);
+}
